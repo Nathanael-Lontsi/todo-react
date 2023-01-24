@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+}
+  
+.PageContent {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+}
+
+.Container {
+  background: #f0ffff;
+  height: 80%;
+  width: 40%;
+}
+
+h1 {
+  font-size: xx-large;
+  text-align: center;
+}
+
+.Input-field {
+  display: flex;
+  gap: 2px;
+  justify-content: center;
+}
+
+input {
+  font-size: 18px;
+  padding: 10px;
+  width: 60%;
+}
+
+.AddButton {
+  background: #c0c0c0;
+  border: none;
+  font-size: 18px;
+  padding: 10px 20px;
+}
+
+.List {
+  background: #f8f8ff;
+  display: flex;
+  font-size: 20px;
+  left: 7%;
+  line-height: 1;
+  list-style: none;
+  padding-left: 20px;
+  padding-top: 20px;
+  position: relative;
+  width: 78%;
+}
+
+.DeleteBtn {
+  background: #fff;
+  color: red;
+  cursor: pointer;
+  font-weight: bold;
+  left: 69%;
+  padding: 2px 6px;
+  position: relative;
+  right: 0;
+}
